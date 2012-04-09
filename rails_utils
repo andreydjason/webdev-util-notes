@@ -1,0 +1,6 @@
+Rails.application.routes.recognize_path(PATH)
+
+bundle install --deployment
+
+# Copy all gems to vendor/gems
+gem list | awk '{print $1}' | xargs gem unpack --target vendor/gems

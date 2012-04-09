@@ -1,0 +1,3 @@
+# RANDOM NUMBER:
+1. (MinRange + FLOOR(RAND() * (MaxRange - MinRange + 1))) as numero_aleatorio
+2. FLOOR(MinRange + RAND() * MaxRange) as numero_aleatorio
