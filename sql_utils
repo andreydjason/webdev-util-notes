@@ -1,3 +1,10 @@
-# RANDOM NUMBER:
-1. (MinRange + FLOOR(RAND() * (MaxRange - MinRange + 1))) as numero_aleatorio
-2. FLOOR(MinRange + RAND() * MaxRange) as numero_aleatorio
+# Return the columns with status of table, including the Auto_Increment value:
+=> SHOW TABLE STATUS LIKE '<table_name>'
+
+
+# Return a random number:
+1) => (<MinRange> + FLOOR(RAND() * (<MaxRange> - <MinRange> + 1))) as random_number
+2) => FLOOR(<MinRange> + RAND() * <MaxRange>) as random_number
+
+
+* Replace the values in <these_tag_type> whitin your values.
